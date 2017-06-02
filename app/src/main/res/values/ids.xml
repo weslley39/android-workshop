@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login Activity-->
+
+    <item name="activity_login_input_user" type="id"/>
+    <item name="activity_login_input_pass" type="id"/>
+    <item name="activity_login_button_enter" type="id"/>
+    <item name="activity_login_button_forgot" type="id"/>
+</resources>
