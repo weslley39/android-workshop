@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FFFFFF</color>
-    <color name="background">#1A1A1A</color>
-    <color name="input_color">#50FFFFFF</color>
+    <color name="colorPrimary">#1A1A1A</color>
+    <color name="colorPrimaryDark">#1A1A1A</color>
+    <color name="colorAccent">@android:color/white</color>
 
+    <color name="tabBar">#2B2B2B</color>
+    <color name="tabBarTitle">#BAFFFFFF</color>
+    <color name="tabBarSelectedTitle">@android:color/white</color>
+    <color name="tabSelectedIndicator">@color/primaryButton</color>
+
+    <color name="cellTitle">#DD212121</color>
+    <color name="cellInfo">#757575</color>
+
+    <color name="title">#3D3D3D</color>
+
+    <color name="primaryButton">#2196F3</color>
+
+    <color name="text">@android:color/white</color>
+    <color name="textHint">#7fffffff</color>
+
+    <color name="progressBarActive">#1AB394</color>
+    <color name="progressBarInactive">#E4E6E7</color>
 
 </resources>

@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Login Activity -->
-    <item name="activity_login_input_user" type="id" />
-    <item name="activity_login_input_pass" type="id" />
-    <item name="activity_login_button_enter" type="id" />
-    <item name="activity_login_button_forgot" type="id" />
 
+    <!-- Solve TextInputLayout Bugs -->
     <item name="visible" type="id"/>
     <item name="masked" type="id"/>
 
+    <!-- Activity Login -->
+    <item name="activity_login_input_layout_user" type="id"/>
+    <item name="activity_login_input_layout_password" type="id"/>
+    <item name="activity_login_button_enter" type="id"/>
+    <item name="activity_login_button_forgot" type="id"/>
 
-    <!-- FOrgot Activity -->
-    <item name="activity_forgot_button_send" type="id"/>
+    <!-- Activity Forgot -->
+    <item name="activity_forgot_input_email" type="id"/>
+    <item name="activity_forgot_button_recovery" type="id"/>
+
+    <!-- Activity Main -->
+    <item name="activity_main_view_pager" type="id"/>
+    <item name="activity_main_tab_layout" type="id"/>
+    <item name="activity_main_toolbar" type="id"/>
+
+    <!-- Menu Main -->
+    <item name="menu_main_logout" type="id"/>
+
 </resources>

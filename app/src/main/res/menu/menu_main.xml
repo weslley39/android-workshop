@@ -3,14 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="io.redspark.gestta.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@id/menu_main_logout"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/action_settings2"
-        android:orderInCategory="100"
-        android:title="Sair"
+        android:title="@string/menu_main_logout"
         app:showAsAction="never" />
 </menu>

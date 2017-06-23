@@ -11,12 +11,10 @@ import io.redspark.gestta.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link RequestFragment#newInstance} factory method to
- * create an instance of this fragment.
  */
 public class RequestFragment extends Fragment {
-    public RequestFragment() {
-    }
+
+    private View mView;
 
     public static RequestFragment newInstance() {
         RequestFragment fragment = new RequestFragment();
@@ -24,14 +22,10 @@ public class RequestFragment extends Fragment {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        mView = inflater.inflate(R.layout.fragment_request, container, false);
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_request, container, false);
+        return mView;
     }
 
 }

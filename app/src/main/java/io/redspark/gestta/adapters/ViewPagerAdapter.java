@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by weslleyneri on 08/06/15.
+ * Created by marcuscosta on 08/06/17.
  */
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
@@ -18,7 +18,6 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     public ViewPagerAdapter(FragmentManager fm) {
         super(fm);
-
     }
 
     @Override
@@ -40,4 +39,5 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         return mFragmentTitleList.get(position);
     }
+
 }
