@@ -36,6 +36,8 @@ public class LoginActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+        mInputLayoutUser.getEditText().setText("markuscosta@gestta.com.br");
+        mInputLayoutPassword.getEditText().setText("123456aS");
 
     }
 

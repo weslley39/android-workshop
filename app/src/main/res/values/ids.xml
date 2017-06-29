@@ -23,4 +23,9 @@
     <!-- Menu Main -->
     <item name="menu_main_logout" type="id"/>
 
+    <!-- Cell Task -->
+    <item name="cell_task_icon" type="id"/>
+    <item name="cell_task_label" type="id"/>
+
+
 </resources>
